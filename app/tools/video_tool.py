@@ -28,10 +28,20 @@ def generate_food_video(
     client = genai.Client(vertexai=True, project=PROJECT_ID, location="global")
     prompt = f"A short video showing {food_description}, fresh healthy ingredients, beautiful food presentation, natural lighting."
 
-    interaction = client.interactions.create(
-        model="gemini-omni-flash-preview",
-        input=prompt,
-    )
+    interaction = None
+    max_attempts = 3
+    for attempt in range(1, max_attempts + 1):
+        try:
+            interaction = client.interactions.create(
+                model="gemini-omni-flash-preview",
+                input=prompt,
+            )
+            break
+        except Exception as e:
+            if ("429" in str(e) or "exhausted" in str(e).lower()) and attempt < max_attempts:
+                time.sleep(attempt * 5)
+                continue
+            raise e
 
     video_bytes = None
     mime_type = "video/mp4"
