@@ -26,6 +26,7 @@ from google.genai import types
 from app.tools.firestore import add_food_to_catalog, search_food_catalog
 from app.tools.image_tool import generate_food_image, generate_meal_plate_image
 from app.tools.rag_tool import consult_nutrition_chart
+from app.tools.video_tool import generate_food_video
 
 MODEL = "gemini-2.5-flash"
 
@@ -136,6 +137,7 @@ root_agent = Agent(
         add_food_to_catalog,
         generate_meal_plate_image,
         generate_food_image,
+        generate_food_video,
         consult_nutrition_chart,
     ],
     after_agent_callback=generate_memories_callback,
