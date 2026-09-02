@@ -72,6 +72,43 @@
   }
   /* When the reply is an A2UI card, drop the bubble chrome so the card stands alone. */
   .bubble.rich { background:transparent; border:none; padding:0; max-width:100%; white-space:normal; box-shadow:none; }
+  
+  .prompts-container {
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.6rem 1.2rem;
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .prompts-container::-webkit-scrollbar { display: none; }
+  .prompt-chip {
+    background: var(--panel);
+    color: #34d399;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 0.5rem 0.95rem;
+    font-size: 0.85rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  .prompt-chip:hover {
+    background: #0f172a;
+    border-color: var(--accent);
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+  }
+
   form { 
     display:flex; 
     gap:.75rem; 
@@ -131,6 +168,13 @@
 <body>
 <header>🥗 Dietary & Weight Management Coach</header>
 <div id="log"></div>
+
+<div class="prompts-container">
+  <button type="button" class="prompt-chip" data-prompt="Calculate my BMI for 70 kg, 175 cm, age 30 male">📊 Calculate BMI & Calorie Target</button>
+  <button type="button" class="prompt-chip" data-prompt="Consult the nutrition chart for high-protein foods under 200 calories">🥗 Search Nutrition Chart</button>
+  <button type="button" class="prompt-chip" data-prompt="Generate a photo of a healthy Mediterranean meal plate with grilled salmon and quinoa">🖼️ Generate Meal Plate Photo</button>
+</div>
+
 <form id="form">
   <input id="input" placeholder="Ask about calories, calculate BMI, log meals, generate food images..." autocomplete="off" autofocus>
   <button>Send</button>
@@ -149,6 +193,13 @@ function bubble(who) {
   m.appendChild(b); log.appendChild(m); log.scrollTop = log.scrollHeight;
   return b;
 }
+
+document.querySelectorAll(".prompt-chip").forEach(btn => {
+  btn.addEventListener("click", () => {
+    input.value = btn.getAttribute("data-prompt");
+    form.dispatchEvent(new Event("submit", { cancelable: true }));
+  });
+});
 
 /* ----------------------------------------------------------------------------
  * A2UI mini-renderer (v0.8 Basic Catalog subset).
