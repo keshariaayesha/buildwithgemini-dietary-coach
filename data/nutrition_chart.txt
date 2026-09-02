@@ -1,0 +1,49 @@
+Institute of Nutrition - Daily Nutrition Requirements & Calorie Chart
+
+SECTION 1: RECOMMENDED DAILY NUTRITIONAL INTAKE
+According to the Institute of Nutrition, the daily recommended nutrient intake for average healthy adults is:
+- Daily Caloric Intake: 2,000 to 2,500 kcal/day (varies by age, gender, and physical activity level).
+- Protein: 50g to 70g per day (10-15% of daily calories).
+- Carbohydrates: 225g to 325g per day (45-65% of daily calories).
+- Total Fats: 44g to 78g per day (20-35% of daily calories).
+- Saturated Fats: Less than 20g per day (<10% of total calories).
+- Cholesterol: Less than 300 mg per day.
+- Dietary Fiber: 25g to 38g per day (essential for digestive health and satiety).
+- Sodium: Less than 2,300 mg per day.
+
+Note: Actual daily intake for average adults often exceeds these recommendations, leading to excess caloric, protein, and fat consumption which can contribute to weight gain and obesity.
+
+SECTION 2: CALORIE & MACRONUTRIENT CHART FOR COMMON FOOD ITEMS
+
+1. PROTEIN & MEAT ITEMS:
+- Chicken Breast (Grilled, 100g): 165 kcal | 31g Protein | 0g Carbs | 3.6g Fat
+- Turkey Breast (Roast, 100g): 135 kcal | 30g Protein | 0g Carbs | 1g Fat
+- Salmon Fillet (Baked, 120g): 240 kcal | 25g Protein | 0g Carbs | 15g Fat
+- Egg (Whole, Large, 50g): 72 kcal | 6.3g Protein | 0.4g Carbs | 4.8g Fat
+- Egg White (1 large, 33g): 17 kcal | 3.6g Protein | 0.2g Carbs | 0.1g Fat
+- Tofu (Firm, 100g): 144 kcal | 15.5g Protein | 3.5g Carbs | 8.8g Fat
+- Cottage Cheese (Low-fat, 1 cup/225g): 163 kcal | 28g Protein | 6g Carbs | 2.3g Fat
+- Greek Yogurt (Plain, Low-fat, 200g): 150 kcal | 15g Protein | 18g Carbs | 2g Fat
+
+2. GRAINS, SEEDS & LEGUMES:
+- Quinoa (Cooked, 1 cup/185g): 222 kcal | 8.1g Protein | 39g Carbs | 3.6g Fat | 5.2g Fiber
+- Oatmeal (Cooked, 1 cup/234g): 166 kcal | 5.9g Protein | 28g Carbs | 3.6g Fat | 4g Fiber
+- Brown Rice (Cooked, 1 cup/195g): 218 kcal | 4.5g Protein | 45.8g Carbs | 1.6g Fat | 3.5g Fiber
+- Lentils (Cooked, 1 cup/198g): 230 kcal | 17.9g Protein | 39.8g Carbs | 0.8g Fat | 15.6g Fiber
+- Black Beans (Cooked, 1 cup/172g): 227 kcal | 15.2g Protein | 40.8g Carbs | 0.9g Fat | 15g Fiber
+- Chia Seeds (2 tbsp/28g): 138 kcal | 4.7g Protein | 12g Carbs | 8.7g Fat | 9.8g Fiber
+
+3. VEGETABLES & FRUITS:
+- Broccoli (Steamed, 1 cup/150g): 55 kcal | 3.7g Protein | 11.2g Carbs | 0.6g Fat | 5.1g Fiber
+- Asparagus (Grilled, 100g): 20 kcal | 2.2g Protein | 3.9g Carbs | 0.2g Fat | 2.1g Fiber
+- Spinach (Raw, 100g): 23 kcal | 2.9g Protein | 3.6g Carbs | 0.4g Fat | 2.2g Fiber
+- Avocado (1 medium, 150g): 240 kcal | 3g Protein | 12g Carbs | 22g Fat | 10g Fiber
+- Apple (Medium, 182g): 95 kcal | 0.5g Protein | 25g Carbs | 0.3g Fat | 4.4g Fiber
+- Banana (Medium, 118g): 105 kcal | 1.3g Protein | 27g Carbs | 0.3g Fat | 3.1g Fiber
+- Blueberries (1 cup/148g): 84 kcal | 1.1g Protein | 21g Carbs | 0.5g Fat | 3.6g Fiber
+
+SECTION 3: DIETARY STRATEGIES FOR BMI & WEIGHT MANAGEMENT
+- Caloric Deficit for Weight Loss: A daily deficit of 500 kcal relative to TDEE results in ~0.5 kg (1 lb) weight loss per week.
+- High Protein Benefit: Consuming 20-30g of protein per meal increases satiety, preserves lean muscle mass during weight loss, and elevates thermogenesis.
+- Fiber & Glycemic Control: High-fiber foods (>5g per serving) slow digestion, stabilize blood sugar levels, and reduce cravings.
+- Hydration Guideline: Drinking 2.5 to 3 liters of water per day aids metabolic rate and helps distinguish thirst from hunger signals.
