@@ -473,7 +473,23 @@ function renderReply(b, parts) {
   const a2ui = parts.filter(p => p && p.kind === "a2ui" && p.data).map(p => p.data);
 
   const textStr = texts.join("\n").trim();
-  if (textStr) b.appendChild(el("div", null, textStr));
+  if (textStr) {
+    b.appendChild(el("div", null, textStr));
+
+    // Auto-detect MP4 video URLs in text and embed inline video player
+    const mp4Match = textStr.match(/https?:\/\/[^\s"']+\.mp4[^\s"']*/i);
+    if (mp4Match) {
+      const v = document.createElement("video");
+      v.className = "a2img";
+      v.src = mp4Match[0];
+      v.controls = true;
+      v.autoplay = false;
+      v.style.marginTop = "0.6rem";
+      v.style.maxHeight = "360px";
+      v.style.width = "100%";
+      b.appendChild(v);
+    }
+  }
 
   if (a2ui.length) {
     b.classList.add("rich");
